@@ -3,6 +3,7 @@ import './App.css';
 import MiComponente from './MiComponente';
 import { SegundoComponent } from './SegundoComponente';
 import { TercerComponente } from './TercerComponent';
+import { Eventos } from './Eventos';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <hr />
+        <Eventos/>
+        <hr/>
         <div className='componentes'>
           {/* Cargar mi componente */}
           <hr />
